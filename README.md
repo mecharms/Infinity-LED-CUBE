@@ -11,7 +11,7 @@ The CUBE is heavily inspired by Hypercube made by **The Hyperspace Lighting Comp
   - ESP32 - I recommend ,,original board" as I had a lot of troubleshooting with cheap clone.
    - Screen OLED 0,96 Arduino I2C SSD1306 128x64px
    - KY-040 Rotary Encoder
-   - Leds: WS2812B - 4.8m (144 leds)
+   - Leds: WS2812B - 4.8m (288 leds)
    - 5V 5A Power supply
 - The mechanical structure is 3D printed - files in the folder
 - 24 x M2 15mm wood screws
