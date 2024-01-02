@@ -11,9 +11,16 @@ The CUBE is heavily inspired by Hypercube made by **The Hyperspace Lighting Comp
   - ESP32 - I recommend ,,original board" as I had a lot of troubleshooting with cheap clone.
    - Screen OLED 0,96 Arduino I2C SSD1306 128x64px
    - KY-040 Rotary Encoder
-   - Leds: WS2812B - 4.8m (144 leds) 
-- The mechanical structure is 3D printed
-
+   - Leds: WS2812B - 4.8m (144 leds)
+   - 5V 5A Power supply
+- The mechanical structure is 3D printed - files in the folder
+- 24 x M2 15mm wood screws
+- 6 x 210mmx210mm/4mm one-way tempered mirrors 
+![cube!](https://github.com/mecharms/Infinity-LED-CUBE/blob/main/photos/cube_model.PNG)
+![cube2!](https://github.com/mecharms/Infinity-LED-CUBE/blob/main/photos/cube_model2.PNG)
+![e1!](https://github.com/mecharms/Infinity-LED-CUBE/blob/main/photos/enclosure1.PNG)
+![e2!](https://github.com/mecharms/Infinity-LED-CUBE/blob/main/photos/enclosure2.PNG)
+![e3!](https://github.com/mecharms/Infinity-LED-CUBE/blob/main/photos/enclosure3.PNG)
 ## Electrical connection
 Here is the electrical connection scheme for controller (patterns selector) : 
 
