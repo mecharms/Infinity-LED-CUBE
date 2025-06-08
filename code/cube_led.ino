@@ -3826,11 +3826,10 @@ void setup()
   //--------------------------------
   // Configure Prescaler to 80, as our timer runs @ 80Mhz
   // Giving an output of 80,000,000 / 80 = 1,000,000 ticks / second
-  timer = timerBegin(0, 80, true);                
-  timerAttachInterrupt(timer, &onTime, true);    
+  timer = timerBegin(1000000);                
+  timerAttachInterrupt(timer, &onTime);    
   // Fire Interrupt every 1m ticks, so 1s
-  timerAlarmWrite(timer, 5000000, true);      
-  timerAlarmEnable(timer);
+  timerAlarm(timer, 5000000, true,0);
   //--------------------------------
    FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS);        // setup leds
    FastLED.setBrightness(BRIGHTNESS);
